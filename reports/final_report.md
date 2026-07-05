@@ -355,7 +355,7 @@ Kiến trúc mô hình của nhóm gồm: tầng Embedding ($128$ chiều) → B
 
 **Kết quả huấn luyện (10 epochs):**
 
-![alt text](figures/danhgia_epoch_LSTM.png)
+![alt text](figures/lstm_learning_curves.png)
 
 
 Thời gian huấn luyện: ${\sim}57$ giây (trên MPS).
@@ -401,7 +401,7 @@ Thời gian huấn luyện: ${\sim}246$ giây (trên MPS/CUDA).
 
 **Kết quả trên tập kiểm thử ($2,190$ mẫu):**
 
-![alt text](figures/danhgia1_PhoBERT.png)
+![alt text](figures/danhgia_1_PhoBERT.png)
 
 | Nhãn | Precision | Recall | F1-score |
 |------|-----------|--------|----------|

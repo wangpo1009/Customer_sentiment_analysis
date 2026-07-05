@@ -17,7 +17,7 @@ A Vietnamese customer review sentiment classification system built with classica
     - [1. Prepare data](#1-prepare-data)
     - [2. Run preprocessing](#2-run-preprocessing)
     - [3. Train models](#3-train-models)
-    - [4. Evaluate](#4-evaluate)
+    - [4. Evaluation](#4-evaluation)
   - [Results](#results)
   - [Team](#team)
 
@@ -173,11 +173,10 @@ python src/models/train_lstm.py
 python src/models/train_phobert.py
 ```
 
-### 4. Evaluate
+### 4. Evaluation
 
 ```bash
-python src/evaluation/metrics.py
-python src/evaluation/error_analysis.py
+reports/final_report.md
 ```
 
 ---
